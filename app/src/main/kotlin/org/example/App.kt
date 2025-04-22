@@ -7,5 +7,8 @@ import java.time.LocalDate
 
 fun main() {
     println("¡Hola, Kotlin!")
+    val nombre: String = "Santino"
+    var fecha = LocalDate.now()
+    println("Hola soy $nombre y hoy es $fecha")
 }
 
