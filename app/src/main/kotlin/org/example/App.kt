@@ -6,8 +6,6 @@ package org.example
 import java.time.LocalDate
 
 fun main() {
-    val nombre: String = "Santino"
-    var fecha = LocalDate.now()
-    println("Hola soy $nombre y hoy es $fecha")
+    println("¡Hola, Kotlin!")
 }
 
