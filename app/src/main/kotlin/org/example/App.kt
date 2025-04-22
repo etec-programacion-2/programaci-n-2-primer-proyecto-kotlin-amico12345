@@ -7,8 +7,21 @@ import java.time.LocalDate
 
 fun main() {
     println("¡Hola, Kotlin!")
+
     val nombre: String = "Santino"
     var fecha = LocalDate.now()
     println("Hola soy $nombre y hoy es $fecha")
-}
 
+    val Minombre: String = "Santi"
+    val edad: Int = 16
+    val peso: Double = 72.5
+    val juegaFutbol: Boolean = true
+    
+    println("Soy $Minombre, tengo $edad años y peso $peso kg. ¿Juego futbol? $juegaFutbol")
+
+    var base: Double= 10.8
+    var altura: Double= 50.5
+    var area: Double= base*altura
+
+    println("El área del rectángulo es $area")
+}
