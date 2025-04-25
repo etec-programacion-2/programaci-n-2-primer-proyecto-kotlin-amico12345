@@ -44,6 +44,49 @@ fun main() {
     } else if (number == 0) {
         println("El número es cero")
     }
+
+    //Paso 4
+    fun mostrarNumerosConLoops() {
+    // Usando for
+    println("Usando for:")
+    for (i in 1..10) {
+        println(i)
+    }
+    
+    // Usando while
+    println("\nUsando while:")
+    var j = 1
+    while (j <= 10) {
+        println(j)
+        j++
+    }
+    
+    // Usando do-while
+    println("\nUsando do-while:")
+    var k = 1
+    do {
+        println(k)
+        k++
+    } while (k <= 10)
+}   
+
+    for (i in 2..20){
+        if (i % 2 == 0){
+            println(i)
+    }
+
+    var j = 2
+        while (j <= 20) {
+         println(j)
+            j += 2
+     }
+
+    var k = 2
+    do{
+        println(k)
+        k+=2
+    } while (k <= 20)
+}
 }
 
 
