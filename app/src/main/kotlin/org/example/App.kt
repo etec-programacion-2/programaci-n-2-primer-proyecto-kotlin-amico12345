@@ -5,6 +5,19 @@ package org.example
 
 import java.time.LocalDate
 
+fun potencia(base: Double, exponente: Int) {
+    if (exponente == 0) {
+        println(1)
+    } else {
+        var resultado = 1.0
+        for (i in 1..exponente) {
+            resultado *= base
+        }
+        println(resultado)
+    }
+}
+
+
 fun main() {
     //Paso 1
     println("¡Hola, Kotlin!")
@@ -87,6 +100,16 @@ fun main() {
         k+=2
     } while (k <= 20)
 }
+    //Paso 5
+    fun factorial(n: Int): Int {
+    return if (n <= 1) 1 else n * factorial(n - 1)
+}
+
+fun saludar(nombre: String, edad: Int = 0) {
+    println("Hola $nombre, tienes $edad años")
+}
+
+    potencia(2.0,3)
 }
 
 
