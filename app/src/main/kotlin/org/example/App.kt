@@ -6,12 +6,14 @@ package org.example
 import java.time.LocalDate
 
 fun main() {
+    //Paso 1
     println("¡Hola, Kotlin!")
 
     val nombre: String = "Santino"
     var fecha = LocalDate.now()
     println("Hola soy $nombre y hoy es $fecha")
 
+    //Paso 2
     val Minombre: String = "Santi"
     val edad: Int = 16
     val peso: Double = 72.5
@@ -24,4 +26,25 @@ fun main() {
     var area: Double= base*altura
 
     println("El área del rectángulo es $area")
+
+    //Paso 3
+    fun esParOImpar(numero: Int): String {
+    return when {
+        numero % 2 == 0 -> "Par"
+        else -> "Impar"
+    }
+    }
+
+    val number:Int=0
+ 
+    if (number > 0) {
+        println("Positivo")
+    } else if (number < 0) {
+        println("Negativo")
+    } else if (number == 0) {
+        println("El número es cero")
+    }
 }
+
+
+        
